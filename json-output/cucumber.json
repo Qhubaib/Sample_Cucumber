@@ -1,0 +1,315 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 324200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.Perform_Login()"
+            }
+          },
+          {
+            "result": {
+              "duration": 106500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.order_test()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Hooks Concept Test scenario",
+        "description": "",
+        "id": "hooks-concept-understanding-feature;hooks-concept-test-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 130700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.close_browser_order_test()"
+            }
+          },
+          {
+            "result": {
+              "duration": 218000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 131844100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter into gmail Application",
+            "match": {
+              "location": "HooksStepDefinition.enter_into_gmail_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 224000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on gmail Compose Button",
+            "match": {
+              "location": "HooksStepDefinition.click_on_gmail_Compose_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Perform compose validation",
+            "match": {
+              "location": "HooksStepDefinition.perform_compose_validation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@First"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 204800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.Perform_Login()"
+            }
+          },
+          {
+            "result": {
+              "duration": 87900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.order_test()"
+            }
+          },
+          {
+            "result": {
+              "duration": 129400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.hook_tagging_test()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Hooks concept Test Scenario2",
+        "description": "",
+        "id": "hooks-concept-understanding-feature;hooks-concept-test-scenario2",
+        "after": [
+          {
+            "result": {
+              "duration": 162400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.close_browser_order_test()"
+            }
+          },
+          {
+            "result": {
+              "duration": 95000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter into gmail Application 2",
+            "match": {
+              "location": "HooksStepDefinition.enter_into_gmail_Application2()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 463900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on gmail Inbox Link",
+            "match": {
+              "location": "HooksStepDefinition.click_on_gmail_Inbox_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Perform Inbox Link validation",
+            "match": {
+              "location": "HooksStepDefinition.perform_Inbox_Link_validation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Second"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 337500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.Perform_Login()"
+            }
+          },
+          {
+            "result": {
+              "duration": 110900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.order_test()"
+            }
+          },
+          {
+            "result": {
+              "duration": 275600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.hook_tagging_test()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Hooks concept Test scenario outline Process",
+        "description": "",
+        "id": "hooks-concept-understanding-feature;hooks-concept-test-scenario-outline-process;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 261200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.close_browser_order_test()"
+            }
+          },
+          {
+            "result": {
+              "duration": 283200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 162200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter into gmail Application 3",
+            "match": {
+              "location": "HooksStepDefinition.enter_into_gmail_Application3()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5282300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enter the data as \"Syed Qhubaib Ahmed\" in search text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Syed Qhubaib Ahmed",
+                  "offset": 19
+                }
+              ],
+              "location": "HooksStepDefinition.enter_the_data_as_in_search_text_box(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 285200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on search button",
+            "match": {
+              "location": "HooksStepDefinition.click_on_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Third"
+          }
+        ]
+      }
+    ],
+    "name": "Hooks Concept Understanding Feature",
+    "description": "",
+    "id": "hooks-concept-understanding-feature",
+    "keyword": "Feature",
+    "uri": "G:/SQ AHMED/Eclipse_WorkSpace/Qhubaib_Cucumber/src/main/java/feature/Hooks.feature"
+  }
+]

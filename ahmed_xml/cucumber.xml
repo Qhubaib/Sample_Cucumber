@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.141312">
+<testcase classname="Hooks Concept Understanding Feature" name="Hooks Concept Test scenario" time="0.132951">
+<system-out><![CDATA[Given Enter into gmail Application..........................................passed
+When Click on gmail Compose Button..........................................passed
+Then Perform compose validation.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hooks Concept Understanding Feature" name="Hooks concept Test Scenario2" time="0.001363">
+<system-out><![CDATA[Given Enter into gmail Application 2........................................passed
+When Click on gmail Inbox Link..............................................passed
+Then Perform Inbox Link validation..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hooks Concept Understanding Feature" name="Hooks concept Test scenario outline Process" time="0.006998">
+<system-out><![CDATA[Given Enter into gmail Application 3........................................passed
+When Enter the data as "Syed Qhubaib Ahmed" in search text box..............passed
+Then click on search button.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
